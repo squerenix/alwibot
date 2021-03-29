@@ -17,4 +17,6 @@ npm i imgbb-uploader
 npm i
 npm i got
 
-echo "[❗] SILAKAN KETIK  [node index.js] UNTUK MENJALANKAN SCRIPT"
+echo "[❗] OwnerBot: wa.me/6288274362492"
+echo "[❗] Copyright By Alwi"
+echo "[❗] SILAKAN KETIK  [npm start] UNTUK MENJALANKAN SCRIPT"

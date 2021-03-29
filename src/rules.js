@@ -9,7 +9,7 @@ const rules = (prefix) => {
 ➤ Kami tidak menyimpan gambar, video, file, audio, dan dokumen yang anda kirim
 ➤ Kami tidak akan pernah meminta anda untuk memberikan informasi pribadi
 ➤ Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot
-➤ Kalian juga bisa menbuat bot sendiri caranya liat yt owner Arifi Razzaq OFFICIAL
+➤ Kalian juga bisa menbuat bot sendiri caranya liat yt owner Alwi OFFICIAL
 ➤ Apapun yang anda perintah pada bot ini, KAMI TIDAK AKAN BERTANGGUNG JAWAB!
 
 *Konsekuensi Bila Melanggar Rules*
@@ -28,6 +28,6 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!
 
-──「 *ARIFI RAZZAQ OFFICIAL* 」──`
+──「 *ALWI OFFICIAL* 」──`
 }
 exports.rules = rules

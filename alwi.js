@@ -55,12 +55,18 @@ const TobzApi = 'BotWeA'
 const TobzKey = 'BotWeA'
 const xteam = '7ba65de0de0c0088'
 const LolHuman = '075f40883ef4bce515d092bf'
-const vcard = 'BEGIN:VCARD\n'  // JAN DIUBAH NTAR ERROR
-            + 'VERSION:3.0\n'  // JAN DIUBAH NTAR ERROR
-            + 'FN:Mhmmd Alwiツ\n'  // GANTI JADI NAMA LU
-            + 'ORG: Pengembang Jougan Bot~;\n'  // GANTI JADI NAMA LU/BOT LU
-            + 'TEL;type=CELL;type=VOICE;waid=6288274362492:+6288274362492\n'  // GANTI JADI NOMER LU TAPI POLANYA JAN DIUBAH
-            + 'END:VCARD' // JAN DIUBAH NTAR ERROR
+const vcard = 'BEGIN:VCARD\n'  
+            + 'VERSION:3.0\n'  
+            + 'FN:Mhmmd Alwiツ\n'  
+            + 'ORG: Pengembang Jougan Bot~;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6288274362492:+6288274362492\n' 
+            + 'END:VCARD' 
+const vcard2 = 'BEGIN:VCARD\n'  
+            + 'VERSION:3.0\n'  
+            + 'FN:Mhmmd Alwiツ\n'  
+            + 'ORG: Pengembang Jougan Bot~;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6288274362492:+6288274362492\n' 
+            + 'END:VCARD'
 prefix = '#'
 blocked = []   
 numbernye = '0'
@@ -69,7 +75,7 @@ limitawal = '50' // SUKA SUKA LU MAU GANTI APA KAGA
 cr = '*JouganBotツ*\n*🍁OW:MhmmdAlwiツ*\n*🍁IG:itsmealwi_*\n*🍁OW:MhmmdAlwiツ*'
 vr = '*🍁ANIMESARAN🍁*'
 /******** OWNER NUMBER**********/
-const ownerNumber = ["6288274362492@s.whatsapp.net"]  // GANTI JADI NOMER LU
+const ownerNumber = ["6288274362492@s.whatsapp.net, 6289510048004@s.whatsapp.net"]  
 /************************************/
 
        
@@ -5054,7 +5060,7 @@ case 'bukatime': //by Zitsraa-BOTシ
             case 'admin':
             case 'owner':
             case 'creator':
-                  dappa.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
+                  dappa.sendMessage(from, {displayname: "Jeff", vcard: vcard, vcard: vcard2}, MessageType.contact, { quoted: mek})
                   dappa.sendMessage(from, 'Tuh kontak Owner Jougan <•_•> ,Jangan Di Apa Apain Yah😋',MessageType.text, { quoted: mek} )
 		break    
            	case 'setname':
