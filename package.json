@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node index"
+    "test": "node index",
+    "start": "node index.js"
   },
   "keywords": [
     "k"
